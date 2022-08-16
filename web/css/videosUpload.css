@@ -1,0 +1,35 @@
+/*comm*/
+*{margin:0;padding:0;}
+html,body{width:100%;height:100%;font-size:14px;font-family:'微软雅黑'}
+input,select,textarea{outline:none;}
+
+/*--------*/
+.main_body{padding-left:30px;}
+.autoH:after{content:"";display:block;clear:both}
+.fl{float:left;}
+.fr{float:right;}
+
+/**/
+.main_title{width:100px;line-height:2rem;padding-left:30px;color:#fff;background:#2e6fb1 url(../images/close2.png) no-repeat 110px center;background-size:8%;}
+.nav_title{line-height:56px;border-bottom:1px dashed #ccc;}
+.nav_title *{float:left;}
+.nav_title .jiantou{display:inline-block;width:46px;height:56px;background:url(../images/next.png) no-repeat center;}
+.color_909090{color:#909090;}
+.color_0e6fb6{color:#0e6fb6;}
+
+/**/
+.color_666{color:#666;}
+.video-upload{padding-top:35px;color:#333;}
+.video-upload form{width:470px;padding:0 5px;margin:0 auto;}
+.rows form{line-height:36px;}
+.rows form input,.rows form select{width:99%;height:36px;border:1px solid #d4d4d4;color:#666;text-indent:12px;}
+.rows form input:focus,.rows form select:focus{border:1px solid #0e6fb6;}
+.rows form div{margin:12px 0;}
+.rows form div:after{content:"";display:block;clear:both}
+.rows form div label{width:20%;float:left;}
+.rows form div span{width:80%;height:100%;float:left;}
+.rows form input.btn_blue{width:300px;background:#2d82bf;color:white;border:none;margin-left:130px;}
+.rows form .upload_file{height:38px;position:relative;}
+.rows form .upload_file input{position:absolute;left:0;top:0;}
+.rows form .upload_file input[type='file']{z-index:10;opacity:0;}
+.rows form .upload_file input[type='text']{z-index:9;}
